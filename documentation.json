@@ -1,0 +1,677 @@
+{
+    "pipes": [],
+    "interfaces": [
+        {
+            "name": "User",
+            "id": "interface-User-9c7e5f1bbbab702cb032307d130876cb68969b0cd4eedef32a0c8cad8081a54e5f8f577ed6ad4539c1b99a1d246cb34031d198c2ea8eba440e64e91b14f01fdc",
+            "file": "src/stories/User.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface User {}\n",
+            "properties": [],
+            "indexSignatures": [],
+            "methods": []
+        }
+    ],
+    "injectables": [],
+    "guards": [],
+    "interceptors": [],
+    "classes": [],
+    "directives": [],
+    "components": [
+        {
+            "name": "FooterComponent",
+            "id": "component-FooterComponent-372883ecd9ce67b24222ea4f41d0dc7bf97cc8b169ea0dccb7355cbd8de599ffa033c7013c0a3d1f9a1372479afaf5ad997085814365923159b5fcb7fc9b4e3f",
+            "file": "src/app/core/layout/footer/footer.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-footer",
+            "styleUrls": [
+                "./footer.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./footer.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-footer',\n  templateUrl: './footer.component.html',\n  styleUrls: ['./footer.component.scss']\n})\nexport class FooterComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./footer.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<p>footer works!</p>\n"
+        },
+        {
+            "name": "HeaderComponent",
+            "id": "component-HeaderComponent-fa2aa27e4139e9793b910068b910e321596a2d195bfa0fd7b8f5f3b804a9b0685cdd9f1a71b7fbe6a9f73526113a68baf80e312c4440dab15890fd39dc4c0aac",
+            "file": "src/app/core/layout/header/header.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-header",
+            "styleUrls": [
+                "./header.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./header.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-header',\n  templateUrl: './header.component.html',\n  styleUrls: ['./header.component.scss']\n})\nexport class HeaderComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./header.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<p>header works!</p>\n"
+        },
+        {
+            "name": "MainComponent",
+            "id": "component-MainComponent-c16701b6317378d126176880b4003e363bb94129cb813efda32039fee2ade72751e3292249f04e4cad3f5099f4714778b6ac19957180018c300e5327ee3cfca5",
+            "file": "src/app/root/main.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "main-root",
+            "styleUrls": [
+                "./main.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./main.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "title",
+                    "defaultValue": "'auto-onboarding-hrms'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 9
+                }
+            ],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'main-root',\n  templateUrl: './main.component.html',\n  styleUrls: ['./main.component.scss']\n})\nexport class MainComponent {\n  title = 'auto-onboarding-hrms';\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./main.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<router-outlet></router-outlet>\n"
+        },
+        {
+            "name": "MasterPageComponent",
+            "id": "component-MasterPageComponent-969a1f84b6781e7ba4f85c65483d7104fe1dbb43bd17aa7baacbe7e6bfcc1d4ae2597b578ad6c3382864d43e0f97588531fb4ea24822db25fc67d7a6b0e01dfc",
+            "file": "src/app/core/layout/master-page/master-page.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-master-page",
+            "styleUrls": [
+                "./master-page.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./master-page.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-master-page',\n  templateUrl: './master-page.component.html',\n  styleUrls: ['./master-page.component.scss']\n})\nexport class MasterPageComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./master-page.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<header class=\"app-header\">\n    <div class=\"container-fluid\">\n      <div class=\"row align-items-center\">\n        <div class=\"col-lg-6\">\n          <div class=\"logo\">\n            <div class=\"logo-icon\"></div>\n            <p>arcon</p>\n          </div>\n        </div>\n        <div class=\"col-lg-6 d-flex justify-content-end align-items-center\">\n          <div class=\"round-btn icon-badge transparent-btn mr-8px\">\n            <span class=\"material-symbols-rounded\">notifications</span>\n            <div class=\"bot-badge secondary\"></div>\n          </div>\n          <div class=\"main-right\">\n            <div class=\"common-avatar\" type=\"button\"\n            data-toggle=\"modal\"\n            data-target=\"#alertModal\">\n              <img src=\"../assets/images/avatar.jpg\" />\n            </div>\n            <span class=\"material-symbols-rounded\">expand_more</span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </header>\n\n\n  <!-- Button trigger modal -->\n\n<!-- Sidebar -->\n<div\nclass=\"modal fade common-alert-modal\"\nid=\"alertModal\"\ntabindex=\"-1\"\naria-hidden=\"true\"\n>\n<div class=\"sidebar-container white-bg\">\n  <div class=\"modal-dialog sidebar-outer\">\n    <div class=\"sidebar-header\">\n      <div class=\"sh-top\">\n        <h5>Header</h5>\n        <button\n          type=\"button\"\n          class=\"close\"\n          data-dismiss=\"modal\"\n          aria-label=\"Close\"\n        >\n          <span class=\"material-symbols-rounded\">close</span>\n        </button>\n      </div>\n    </div>\n\n    <div class=\"sidebar-body\">\n        <div class=\"sidebar-outer\">\n            <div class=\"sidebar-header\">\n              <div class=\"sh-top\">\n                <div class=\"sh-top-left\">\n                  <button class=\"common-btn tertiary-btn left-icon-btn\">\n                    <span class=\"material-symbols-rounded\">logout</span>\n                    Logout\n                  </button>\n                </div>\n                <div class=\"sh-top-right\">\n                  <span class=\"material-symbols-rounded\">close</span>\n                </div>\n              </div>\n              <div class=\"sh-bottom\">\n                <div class=\"sh-bottom-img\"></div>\n                <div class=\"sh-bottom-content\">\n                  <div class=\"sb-admin-img bg-white\">\n                    <h5>FL</h5>\n                  </div>\n                  <h4>Francisca L. Helm</h4>\n                  <p>FranciscaLHelm@jourrapide.com</p>\n                  <div class=\"sh-bottom-content-ls\">\n                    <p>Last Session</p>\n                    <span class=\"material-symbols-rounded ml-3 mr-1\">event</span>\n                    <p>05/10/2022</p>\n                    <span class=\"material-symbols-rounded ml-3 mr-1\">schedule</span>\n                    <p>12:49:13</p>\n                  </div>\n                  <div class=\"sh-bottom-content-ls\">\n                    <p>Current Session</p>\n                    <span class=\"material-symbols-rounded ml-3 mr-1\">schedule</span>\n                    <p>1 hour 20 minute</p>\n                  </div>\n                </div>\n              </div>\n            </div>\n          \n            <div class=\"sidebar-body\">\n              <div class=\"sb-list common-list border-bottom pb-24px\">\n                <ul>\n                  <li class=\"grey-bg-hover\">\n                    <span class=\"material-symbols-rounded\">lock_open</span>\n                    <p>Change Password</p>\n                  </li>\n                  <li class=\"grey-bg-hover\">\n                    <span class=\"material-symbols-rounded\">mop</span>\n                    <p>Clear Local Caches</p>\n                  </li>\n                  <li class=\"grey-bg-hover\">\n                    <span class=\"material-symbols-rounded\">local_library</span>\n                    <p>Arcon Learning Center</p>\n                  </li>\n                </ul>\n              </div>\n          \n              <div class=\"sb-theme mt-32px\">\n                <div class=\"sb-theme-left\">\n                  <h5>Themes</h5>\n                  <ul>\n                    <li>\n                      <div class=\"select-color-scheme-outer secondary-bg\"></div>\n                      <div class=\"sb-radio-container\">\n                        <input type=\"radio\" name=\"radio\" />\n                        <span></span>\n                      </div>\n                    </li>\n                    <li>\n                      <div class=\"select-color-scheme-outer dark-red-bg\"></div>\n                      <div class=\"sb-radio-container\">\n                        <input type=\"radio\" name=\"radio\" />\n                        <span></span>\n                      </div>\n                    </li>\n                    <li>\n                      <div class=\"select-color-scheme-outer grass-green-bg\"></div>\n                      <div class=\"sb-radio-container\">\n                        <input type=\"radio\" name=\"radio\" />\n                        <span></span>\n                      </div>\n                    </li>\n                    <li>\n                      <div class=\"select-color-scheme-outer purple-bg\"></div>\n                      <div class=\"sb-radio-container\">\n                        <input type=\"radio\" name=\"radio\" />\n                        <span></span>\n                      </div>\n                    </li>\n                  </ul>\n                </div>\n                <div class=\"sb-theme-right\">\n                  <h5>Day/Night</h5>\n                  <div class=\"sb-theme-right-outer\">\n                    <div class=\"switch-container\">\n                      <input type=\"checkbox\" />\n                      <span class=\"slider round\"></span>\n                    </div>\n                    <span class=\"material-symbols-rounded\">dark_mode</span>\n                  </div>\n                </div>\n              </div>\n          \n              <div class=\"sb-fonts mt-32px\">\n                <h5>Font Size</h5>\n          \n                <div class=\"sb-fonts-outer\">\n                  <div class=\"radio-outer\">\n                    <label>14 Pixel</label>\n                    <div class=\"radio-container\">\n                      <input type=\"radio\" name=\"font-size\" />\n                      <span></span>\n                    </div>\n                  </div>\n                  <div class=\"radio-outer\">\n                    <label>16 Pixel</label>\n                    <div class=\"radio-container\">\n                      <input type=\"radio\" name=\"font-size\" />\n                      <span></span>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n    </div>\n\n    <div class=\"sidebar-footer white-bg\">\n      <div class=\"sidebar-footer-inner border-top\">\n        <button\n          type=\"button\"\n          class=\"common-btn tertiary-btn\"\n          data-dismiss=\"modal\"\n        >\n          Disagree\n        </button>\n        <button type=\"button\" class=\"common-btn primary-btn\">Agree</button>\n      </div>\n    </div>\n  </div>\n</div>\n</div>\n\n\n<div class=\"common-accordion\" id=\"accordionSlide\">\n    <div class=\"card\">\n      <div class=\"card-header white-bg\" id=\"headingOne\">\n        <h6\n          onclick=\"accordionIconChange()\"\n          id=\"accordionIconChange\"\n          class=\"show\"\n          data-toggle=\"collapse\"\n          data-target=\"#collapseOne\"\n          aria-expanded=\"true\"\n          aria-controls=\"collapseOne\"\n        >\n          <span class=\"material-symbols-rounded accordion-add-icon\">add</span>\n          <span class=\"material-symbols-rounded accordion-remove-icon\">\n            remove\n          </span>\n          Collapsible Group Item #1\n        </h6>\n      </div>\n  \n      <div\n        id=\"collapseOne\"\n        class=\"collapse show\"\n        aria-labelledby=\"headingOne\"\n        data-parent=\"#accordionSlide\"\n      >\n        <div class=\"card-body white-bg\">\n          <p>\n            Some placeholder content for the first accordion panel. This panel is\n            shown by default, thanks to the class.\n          </p>\n        </div>\n      </div>\n    </div>\n  \n    <div class=\"card\">\n      <div class=\"card-header\" id=\"headingTwo\">\n        <h6\n          onclick=\"accordionIconChange()\"\n          id=\"accordionIconChange\"\n          data-toggle=\"collapse\"\n          data-target=\"#collapseTwo\"\n          aria-expanded=\"false\"\n          aria-controls=\"collapseTwo\"\n        >\n          <span class=\"material-symbols-rounded accordion-add-icon\">add</span>\n          <span class=\"material-symbols-rounded accordion-remove-icon\">\n            remove\n          </span>\n          Collapsible Group Item #2\n        </h6>\n      </div>\n  \n      <div\n        id=\"collapseTwo\"\n        class=\"collapse\"\n        aria-labelledby=\"headingTwo\"\n        data-parent=\"#accordionSlide\"\n      >\n        <div class=\"card-body\">\n          <p>\n            Some placeholder content for the second accordion panel. This panel is\n            hidden by default.\n          </p>\n        </div>\n      </div>\n    </div>\n  </div>"
+        },
+        {
+            "name": "UserSidebarComponent",
+            "id": "component-UserSidebarComponent-5002b4338f266036717fab10dd09a6da7f34ab6e7ce44e97878c89f87d64bf4e6f1e65e497196fd9dd2e70fd628ca9a988244467cd679b0d4ae375200441419e",
+            "file": "src/app/core/layout/user-sidebar/user-sidebar.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-user-sidebar",
+            "styleUrls": [
+                "./user-sidebar.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./user-sidebar.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-user-sidebar',\n  templateUrl: './user-sidebar.component.html',\n  styleUrls: ['./user-sidebar.component.scss']\n})\nexport class UserSidebarComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./user-sidebar.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<p>user-sidebar works!</p>\n"
+        }
+    ],
+    "modules": [
+        {
+            "name": "LayoutModule",
+            "id": "module-LayoutModule-d091690c1e023bbb9ed387d5158fc2f8b28c5a8e7b1637f5c33600c7af7fc5bd40d95ed5c08dd760aeedac1ad5867383f577529d26fe1392bb696138a293e2d9",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/core/layout/layout.module.ts",
+            "methods": [],
+            "sourceCode": "import { MainRoutingModule } from './main-routing.module';\nimport { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { MasterPageComponent } from './master-page/master-page.component';\nimport { HeaderComponent } from './header/header.component';\nimport { FooterComponent } from './footer/footer.component';\nimport { UserSidebarComponent } from './user-sidebar/user-sidebar.component';\n\n\n\n@NgModule({\n  declarations: [\n    MasterPageComponent,\n    HeaderComponent,\n    FooterComponent,\n    UserSidebarComponent\n  ],\n  imports: [\n    CommonModule,\n    MainRoutingModule\n  ]\n})\nexport class LayoutModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "FooterComponent"
+                        },
+                        {
+                            "name": "HeaderComponent"
+                        },
+                        {
+                            "name": "MasterPageComponent"
+                        },
+                        {
+                            "name": "UserSidebarComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": [
+                        {
+                            "name": "MainRoutingModule"
+                        }
+                    ]
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "MainModule",
+            "id": "module-MainModule-27760443fa6f453d45851f730f90d55f01b4d8b3ab8165b5ed9ac8fafde94a1e8a3ecb29d15692f41f7e8b60cb8c46fab9b80348c324a8135f7576e43689b5a7",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/root/main.module.ts",
+            "methods": [],
+            "sourceCode": "import { LayoutModule } from './../core/layout/layout.module';\nimport { MainComponent } from './main.component';\n\nimport { RouterModule } from '@angular/router';\nimport { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\n\n@NgModule({\n  declarations: [\n    MainComponent\n  ],\n  imports: [\n    BrowserModule,\n    LayoutModule,\n    RouterModule\n  ],\n  providers: [],\n  bootstrap: [MainComponent]\n})\nexport class MainModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "MainComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": [
+                        {
+                            "name": "LayoutModule"
+                        }
+                    ]
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": [
+                        {
+                            "name": "MainComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "MainRoutingModule",
+            "id": "module-MainRoutingModule-4e1c44499440bc24b5f420fa10e6a3b9617f3197ae3edc5a9b8821b41b7a1292dd9c937d4f56920cfa312e78306b82afd670914e1ef0df99c7eccbc14395dfa5",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/core/layout/main-routing.module.ts",
+            "methods": [],
+            "sourceCode": "import { MasterPageComponent } from './master-page/master-page.component';\nimport { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\n\nconst routes: Routes = [\n\n  {\n    path: '',\n    component: MasterPageComponent\n  }\n\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class MainRoutingModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": []
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        }
+    ],
+    "miscellaneous": {
+        "variables": [
+            {
+                "name": "context",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/test.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+            },
+            {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/environments/environment.prod.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\n  production: true\n}"
+            },
+            {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/environments/environment.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\n  production: false\n}"
+            },
+            {
+                "name": "require",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/test.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "literal type"
+            }
+        ],
+        "functions": [],
+        "typealiases": [],
+        "enumerations": [],
+        "groupedVariables": {
+            "src/test.ts": [
+                {
+                    "name": "context",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+                },
+                {
+                    "name": "require",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "literal type"
+                }
+            ],
+            "src/environments/environment.prod.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/environments/environment.prod.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\n  production: true\n}"
+                }
+            ],
+            "src/environments/environment.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/environments/environment.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\n  production: false\n}"
+                }
+            ]
+        },
+        "groupedFunctions": {},
+        "groupedEnumerations": {},
+        "groupedTypeAliases": {}
+    },
+    "routes": {
+        "name": "<root>",
+        "kind": "module",
+        "className": "MainModule",
+        "children": [
+            {
+                "name": "routes",
+                "filename": "src/app/core/layout/main-routing.module.ts",
+                "module": "MainRoutingModule",
+                "children": [
+                    {
+                        "path": "",
+                        "component": "MasterPageComponent"
+                    }
+                ],
+                "kind": "module"
+            }
+        ]
+    },
+    "coverage": {
+        "count": 0,
+        "status": "low",
+        "files": [
+            {
+                "filePath": "src/app/core/layout/footer/footer.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "FooterComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/core/layout/header/header.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "HeaderComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/core/layout/master-page/master-page.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "MasterPageComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/core/layout/user-sidebar/user-sidebar.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "UserSidebarComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/root/main.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "MainComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/environments/environment.prod.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "environment",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/environments/environment.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "environment",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/User.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "User",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/test.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "context",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/test.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "require",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            }
+        ]
+    }
+}
