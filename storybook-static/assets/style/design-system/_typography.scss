@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'robotoblack';
+  src: url('../../fonts/roboto-black-webfont.woff2') format('woff2'),
+       url('../../fonts/roboto-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('../../fonts/roboto-bold-webfont.woff2') format('woff2'),
+       url('../../fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium';
+  src: url('../../fonts/roboto-medium-webfont.woff2') format('woff2'),
+       url('../../fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../../fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('../../fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotolight';
+  src: url('../../fonts/roboto-light-webfont.woff2') format('woff2'),
+       url('../../fonts/roboto-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**********font family**********/
+
+$font-light: 'robotolight';
+$font-regular: 'robotoregular';
+$font-medium: 'robotomedium';
+$font-bold: 'robotobold';
+$font-black: 'robotoblack';
+
+
+/**********font size**********/
+
+$primary-fs: 28px;
+$secondary-fs: 20px;
+$tertiary-fs: 16px;
+$fourth-heading-fs: 16px;
+$subtitle-1-fs: 16px;
+$subtitle-2-fs: 14px;
+$caption-bold-fs: 12px;
+$general-text-fs: 14px;
+$capitalize-heading-fs: 14px;
+$label-fs: 14px;
+$small-fs:14px;
+
+.primary-heading{
+  font-size: $primary-fs !important;
+  font-weight: 700 !important;
+  line-height: 42px !important;
+}
+h1{
+  font-size: $primary-fs !important;
+  font-weight: 700 !important;
+  line-height: 42px !important;
+}
+
+.secondary-heading{
+  font-size: $secondary-fs !important;
+  font-weight: 700 !important;
+  line-height: 30px !important;
+}
+h2{
+  font-size: $secondary-fs !important;
+  font-weight: 700 !important;
+  line-height: 30px !important;
+}
+
+.tertiary-heading{
+  font-size: $tertiary-fs !important;
+  font-weight: 300 !important;
+  line-height: 30px !important;
+}
+h3{
+  font-size: $tertiary-fs !important;
+  font-weight: 300 !important;
+  line-height: 30px !important;
+}
+
+.fourth-heading{
+  font-size: $fourth-heading-fs !important;
+  font-weight: 700 !important;
+  line-height: 26px !important;
+}
+h4{
+  font-size: $fourth-heading-fs !important;
+  font-weight: 700 !important;
+  line-height: 26px !important;
+}
+
+.subtitle-1{
+  font-size: $subtitle-1-fs !important;
+  font-weight: 700 !important;
+  line-height: 24px !important;
+}
+h5{
+  font-size: $subtitle-1-fs !important;
+  font-weight: 700 !important;
+  line-height: 24px !important;
+}
+
+.subtitle-2{
+  font-size: $subtitle-2-fs !important;
+  font-weight: 700 !important;
+  line-height: 22px !important;
+}
+h6{
+  font-size: $subtitle-2-fs !important;
+  font-weight: 700 !important;
+  line-height: 22px !important;
+}
+
+.caption-bold{
+  font-size: $caption-bold-fs !important;
+  font-weight: 700 !important;
+  line-height: 20px !important;
+}
+
+.general-text{
+  font-size: $general-text-fs !important;
+  font-weight: 400 !important;
+  line-height: 22px !important;
+}
+p{
+  font-size: $general-text-fs !important;
+  font-weight: 400 !important;
+  line-height: 22px !important;
+}
+
+.capitalize-heading{
+  font-size: $capitalize-heading-fs !important;
+  font-weight: 700 !important;
+  line-height: 22px !important;
+}
+
+.label{
+  font-size: $label-fs !important;
+  font-weight: 500 !important;
+  line-height: 22px !important;
+}
+label{
+  font-size: $label-fs;
+  font-weight: 500 !important;
+  line-height: 22px !important;
+  margin-bottom: 5px !important;
+}
+
+.small{
+  font-size: $small-fs;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+}
+small{
+  font-size: $small-fs;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+}

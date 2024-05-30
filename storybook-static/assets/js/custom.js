@@ -1,0 +1,1 @@
+function accordionIconChange(){document.querySelector("#accordionIconChange").classList.toggle("show")}

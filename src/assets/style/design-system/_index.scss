@@ -1,0 +1,38 @@
+body{
+  font-family: $font-regular;
+  color: var(--secondary_text_color);
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+label,
+figure,
+picture {
+    margin: 0; 
+}
+
+/* make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* float left and width 100% */
+.fl-w-full{
+  float: left;
+  width: 100%;
+}
