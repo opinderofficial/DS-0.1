@@ -112,7 +112,7 @@ h4, .fourth-heading{
 h5, .subtitle-1{
   font-size: $subtitle-1-fs !important;
   color: var(--primary_text_color);
-  font-family: $font-bold;
+  font-family: $font-medium;
 }
 
 h6, .subtitle-2{
@@ -144,8 +144,8 @@ label, .label, th{
   color: var(--secondary_text_color);
   font-family: $font-regular;
 }
-.caption-bold{
+.caption-medium{
   font-size: $caption-fs;
   color: var(--secondary_text_color);
-  font-family: $font-bold;
+  font-family: $font-medium;
 }

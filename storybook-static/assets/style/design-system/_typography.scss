@@ -20,7 +20,6 @@
        url('../../fonts/roboto-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 @font-face {
@@ -45,8 +44,23 @@ $font-light: 'robotolight';
 $font-regular: 'robotoregular';
 $font-medium: 'robotomedium';
 $font-bold: 'robotobold';
-$font-black: 'robotoblack';
+$font-extra-bold: 'robotoblack';
 
+.fw-light{
+  font-family: $font-light;
+}
+.fw-regular{
+  font-family: $font-regular;
+}
+.fw-medium{
+  font-family: $font-medium;
+}
+.fw-bold{
+  font-family: $font-bold;
+}
+.fw-extra-bold{
+  font-family: $font-extra-bold;
+}
 
 /**********font size**********/
 
@@ -54,122 +68,84 @@ $primary-fs: 28px;
 $secondary-fs: 20px;
 $tertiary-fs: 16px;
 $fourth-heading-fs: 16px;
-$subtitle-1-fs: 16px;
-$subtitle-2-fs: 14px;
-$caption-bold-fs: 12px;
-$general-text-fs: 14px;
-$capitalize-heading-fs: 14px;
-$label-fs: 14px;
-$small-fs:14px;
+$subtitle-1-fs: 15px;
+$subtitle-2-fs: 13px;
+$normal-text-xl-fs: 16px;
+$normal-text-l-fs: 14px;
+$normal-text-m-fs: 13px;
+$normal-text-s-fs: 12px;
+$link-text-l-fs: 14px;
+$link-text-m-fs: 13px;
+$btn-s-fs: 12px;
+$btn-m-fs: 13px;
+$btm-l-fs: 14px;
+$btm-xl-fs: 16px;
+$label-xl-fs: 16px;
+$label-l-fs: 14px;
+$label-m-fs: 13px;
+$caption-fs: 12px;
 
-.primary-heading{
-  font-size: $primary-fs !important;
-  font-weight: 700 !important;
-  line-height: 42px !important;
-}
-h1{
-  font-size: $primary-fs !important;
-  font-weight: 700 !important;
-  line-height: 42px !important;
+h1, .primary-heading{
+  font-size: $primary-fs;
+  color: var(--primary_text_color);
+  font-family: $font-extra-bold;
 }
 
-.secondary-heading{
+h2, .secondary-heading{
   font-size: $secondary-fs !important;
-  font-weight: 700 !important;
-  line-height: 30px !important;
-}
-h2{
-  font-size: $secondary-fs !important;
-  font-weight: 700 !important;
-  line-height: 30px !important;
+  color: var(--primary_text_color);
+  font-family: $font-bold;
 }
 
-.tertiary-heading{
+h3, .tertiary-heading{
   font-size: $tertiary-fs !important;
-  font-weight: 300 !important;
-  line-height: 30px !important;
-}
-h3{
-  font-size: $tertiary-fs !important;
-  font-weight: 300 !important;
-  line-height: 30px !important;
+  color: var(--primary_text_color);
+  font-family: $font-light;
 }
 
-.fourth-heading{
+h4, .fourth-heading{
   font-size: $fourth-heading-fs !important;
-  font-weight: 700 !important;
-  line-height: 26px !important;
-}
-h4{
-  font-size: $fourth-heading-fs !important;
-  font-weight: 700 !important;
-  line-height: 26px !important;
+  color: var(--primary_text_color);
+  font-family: $font-bold;
 }
 
-.subtitle-1{
+h5, .subtitle-1{
   font-size: $subtitle-1-fs !important;
-  font-weight: 700 !important;
-  line-height: 24px !important;
-}
-h5{
-  font-size: $subtitle-1-fs !important;
-  font-weight: 700 !important;
-  line-height: 24px !important;
+  color: var(--primary_text_color);
+  font-family: $font-bold;
 }
 
-.subtitle-2{
+h6, .subtitle-2{
   font-size: $subtitle-2-fs !important;
-  font-weight: 700 !important;
-  line-height: 22px !important;
-}
-h6{
-  font-size: $subtitle-2-fs !important;
-  font-weight: 700 !important;
-  line-height: 22px !important;
+  color: var(--primary_text_color);
+  font-family: $font-medium;
 }
 
+p, .normal-text, td{
+  font-size: $normal-text-m-fs;
+  color: var(--secondary_text_color);
+  font-family: $font-regular;
+}
+
+a, .link-text{
+  font-size: $link-text-m-fs;
+  color: var(--link_color);
+  font-family: $font-medium;
+}
+
+label, .label, th{
+  font-size: $label-m-fs;
+  color: var(--primary_text_color);
+  font-family: $font-medium;
+}
+
+.caption{
+  font-size: $caption-fs;
+  color: var(--secondary_text_color);
+  font-family: $font-regular;
+}
 .caption-bold{
-  font-size: $caption-bold-fs !important;
-  font-weight: 700 !important;
-  line-height: 20px !important;
-}
-
-.general-text{
-  font-size: $general-text-fs !important;
-  font-weight: 400 !important;
-  line-height: 22px !important;
-}
-p{
-  font-size: $general-text-fs !important;
-  font-weight: 400 !important;
-  line-height: 22px !important;
-}
-
-.capitalize-heading{
-  font-size: $capitalize-heading-fs !important;
-  font-weight: 700 !important;
-  line-height: 22px !important;
-}
-
-.label{
-  font-size: $label-fs !important;
-  font-weight: 500 !important;
-  line-height: 22px !important;
-}
-label{
-  font-size: $label-fs;
-  font-weight: 500 !important;
-  line-height: 22px !important;
-  margin-bottom: 5px !important;
-}
-
-.small{
-  font-size: $small-fs;
-  font-weight: 400 !important;
-  line-height: 20px !important;
-}
-small{
-  font-size: $small-fs;
-  font-weight: 400 !important;
-  line-height: 20px !important;
+  font-size: $caption-fs;
+  color: var(--secondary_text_color);
+  font-family: $font-bold;
 }

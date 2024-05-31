@@ -1,3 +1,18 @@
+.fs-16{
+  font-size: 16px;
+}
+.fs-18{
+  font-size: 18px;
+}
+.sb-var-color{
+  color: var(--shareable_color);
+  font-family: $font-medium;
+}
+.sb-class-color{
+  color: var(--primary_color);
+  font-family: $font-medium;
+}
+
 // Headings
 *{
   box-sizing: border-box;
@@ -88,6 +103,8 @@ p{
       border-bottom: 1px solid var(--layout_border_color);
       padding-left: $padding-small;
       padding-right: $padding-small;
+      padding-top: $padding-small;
+      padding-bottom: $padding-small;
     }
     tr{
       &:last-child{
@@ -95,23 +112,6 @@ p{
           border: none;
         }
       }
-    }
-  }
-}
-
-.typography-outer{
-  display: inline-block;
-  width: 100%;
-
-  table{
-    width: 100%;
-    text-align: left;
-
-    th{
-      padding: 20px 20px;
-    }
-    td{
-      padding: 20px 20px;
     }
   }
 }
@@ -164,56 +164,56 @@ p{
   width: auto;
   margin: $margin-medium;
 }
-.margin-size-box{
+.mp-size-box{
   display: flex;
   width: 100%;
   background-color: #F4C3CB;
 
-  &.margin-1{
+  &.size-1{
     height: 1px;
   }
 
-  &.margin-4{
+  &.size-4{
     height: 4px;
   }
 
-  &.margin-8{
+  &.size-8{
     height: 8px;
   }
 
-  &.margin-12{
+  &.size-12{
     height: 12px;
   }
 
-  &.margin-16{
+  &.size-16{
     height: 16px;
   }
 
-  &.margin-20{
+  &.size-20{
     height: 20px;
   }
 
-  &.margin-24{
+  &.size-24{
     height: 24px;
   }
 
-  &.margin-28{
+  &.size-28{
     height: 28px;
   }
 
-  &.margin-32{
+  &.size-32{
     height: 32px;
   }
 
-  &.margin-38{
+  &.size-38{
     height: 44px;
   }
 
-  &.margin-48{
+  &.size-48{
     height: 48px;
   }
 
-  &.margin-64{
+  &.size-64{
     height: 64px;
   }
 }

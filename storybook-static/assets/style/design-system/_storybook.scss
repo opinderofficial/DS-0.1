@@ -1,6 +1,21 @@
+.fs-16{
+  font-size: 16px;
+}
+.fs-18{
+  font-size: 18px;
+}
+
+
 // Headings
 *{
   box-sizing: border-box;
+}
+.common-overview{
+  margin-top: $margin-large;
+  margin-bottom: $margin-large;
+}
+.small-heading{
+  margin-bottom: $margin-small;
 }
 .sub-heading{
   font-size: 20px;
@@ -49,36 +64,47 @@ p{
 }
 
 .box-outer-main {
-  display: inline-block;
-  width: 100%;
 
   .box-border {
-    display: inline-block;
-    width: 100%;
-    border:1px solid #D0D4E4;
-    padding: 20px;
-    border-radius: 8px;
-    box-sizing: border-box;
+    border:1px solid var(--layout_border_color);
+    padding: $padding-medium;
+    border-radius: $border-radius-medium;
   }
 }
-.common-heading {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 28px;
+
+.msb-content {
+  display: flex;
+
+  div{
+    margin-right: $margin-medium;
+  }
 }
-.typography-outer{
-  display: inline-block;
-  width: 100%;
+
+.sb-table-outer{
 
   table{
     width: 100%;
-    text-align: left;
 
     th{
-      padding: 20px 20px;
+      height: 38px;
+      border-bottom: 1px solid var(--layout_border_color);
+      padding-left: $padding-small;
+      padding-right: $padding-small;
     }
     td{
-      padding: 20px 20px;
+      height: 38px;
+      border-bottom: 1px solid var(--layout_border_color);
+      padding-left: $padding-small;
+      padding-right: $padding-small;
+      padding-top: $padding-small;
+      padding-bottom: $padding-small;
+    }
+    tr{
+      &:last-child{
+        td{
+          border: none;
+        }
+      }
     }
   }
 }
@@ -86,6 +112,7 @@ p{
 .box-border{
   display: inline-block;
   width: 100%;
+  margin-bottom: $margin-xxl;
 
   ul{
     display: inline-block;
@@ -128,64 +155,59 @@ p{
 .margin-size-box-outer{
   display: inline-block;
   width: auto;
-  margin: 32px 44px;
+  margin: $margin-medium;
+}
+.mp-size-box{
+  display: flex;
+  width: 100%;
+  background-color: #F4C3CB;
 
-  .margin-size-box{
-    display: inline-block;
-    width: 75px;
-    background-color: #F4C3CB;
+  &.size-1{
+    height: 1px;
+  }
 
-    &.margin-4{
-      height: 4px;
-    }
+  &.size-4{
+    height: 4px;
+  }
 
-    &.margin-8{
-      height: 8px;
-    }
+  &.size-8{
+    height: 8px;
+  }
 
-    &.margin-12{
-      height: 12px;
-    }
+  &.size-12{
+    height: 12px;
+  }
 
-    &.margin-16{
-      height: 16px;
-    }
+  &.size-16{
+    height: 16px;
+  }
 
-    &.margin-20{
-      height: 20px;
-    }
+  &.size-20{
+    height: 20px;
+  }
 
-    &.margin-24{
-      height: 24px;
-    }
+  &.size-24{
+    height: 24px;
+  }
 
-    &.margin-28{
-      height: 28px;
-    }
+  &.size-28{
+    height: 28px;
+  }
 
-    &.margin-32{
-      height: 32px;
-    }
+  &.size-32{
+    height: 32px;
+  }
 
-    &.margin-36{
-      height: 36px;
-    }
+  &.size-38{
+    height: 44px;
+  }
 
-    &.margin-40{
-      height: 40px;
-    }
+  &.size-48{
+    height: 48px;
+  }
 
-    &.margin-44{
-      height: 44px;
-    }
-
-    &.margin-48{
-      height: 48px;
-    }
-
-    &.margin-64{
-      height: 64px;
-    }
+  &.size-64{
+    height: 64px;
   }
 }
 

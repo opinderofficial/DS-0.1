@@ -419,3 +419,21 @@ $padding-xxxl: 64px;
 .pr-xxxl{
   margin-right: $padding-xxxl;
 }
+
+// no padding
+
+.p-z{
+  padding: $padding-z;
+}
+.pl-z{
+  padding-left: $padding-z;
+}
+.pt-z{
+  padding-top: $padding-z;
+}
+.pr-z{
+  padding-right: $padding-z;
+}
+.pb-z{
+  padding-bottom: $padding-z;
+}

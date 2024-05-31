@@ -7,10 +7,18 @@ import { storiesOf } from '@storybook/angular';
     template: `
     <div>
 
-      <div class="box-outer-main">
+      <div class="box-outer-main fl-w-full">
 
-        <div class="common-heading mt-8px">
-          <h3 class="tertiary-heading"> Semantic colors </h3>
+        <div class="common-heading fl-w-full bl-b">
+          <h1 class="pb-vs"> Colors </h1>
+        </div>
+        <div class="common-overview fl-w-full">
+          <h4 class="mb-vs"> Overview </h4>
+          <p>Incorporating rounded corners into web design is more than a mere trend; it's a thoughtful approach to enhancing visual appeal, usability, and user satisfaction.</p>
+        </div>
+
+        <div class="small-heading fl-w-full">
+          <h4 class="fl-w-full"> Blue Color Scheme </h4>
         </div>
 
         <div class="box-border">

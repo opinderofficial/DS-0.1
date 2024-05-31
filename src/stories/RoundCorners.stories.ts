@@ -7,52 +7,55 @@ import { storiesOf } from '@storybook/angular';
     template: `
     <div>
 
-      <div class="box-outer-main">
+      <div class="box-outer-main fl-w-full">
 
-        <div class="common-heading">
-          <h3 class="tertiary-heading mb-12px"> Round Corners </h3>
-          <p> Our design system contains various fixed units for radius of elements corners. </p>
+        <div class="common-heading fl-w-full bl-b">
+          <h1 class="pb-vs"> Round Corners </h1>
+        </div>
+        <div class="common-overview fl-w-full">
+          <h4 class="mb-vs"> Overview </h4>
+          <p>Incorporating rounded corners into web design is more than a mere trend; it's a thoughtful approach to enhancing visual appeal, usability, and user satisfaction.</p>
         </div>
 
-        <div class="box-border">
+        <div class="box-border fl-w-full">
           <ul>
             <li>
               <div class="border-radius-outer">
-                <div class="border-radius-box border-radius-small"></div>
+                <div class="border-radius-box brs"></div>
                 <div class="border-radius-content">
-                  <h4 class="subtitle-2"> Small </h4>
+                  <h4> Small </h4>
                   <p> Forms </p>
                   <p> Buttons </p>
                   <p> Check boxes </p>
                   <p> Selected mark </p>
                   <p> Tooltips etc... </p>
-                  <p> ( class="border-radius-small" ) </p>
-                  <p> ( var="$border-radius-small" ) </p>
+                  <h6> SCSS Variable <span class="sb-var-color"> ( $border-radius-small ) </span> </h6>
+                  <h6> Class <span class="sb-class-color"> ( brs ) </span> </h6>
                 </div>
               </div>
             </li>
             <li>
               <div class="border-radius-outer">
-                <div class="border-radius-box border-radius-medium"></div>
+                <div class="border-radius-box brm"></div>
                 <div class="border-radius-content">
-                  <h4 class="subtitle-2"> Medium </h4>
+                  <h4> Medium </h4>
                   <p> Dropdown </p>
                   <p> Popovers </p>
                   <p> Attention box </p>
                   <p> Updates </p>
-                  <p> ( class="border-radius-medium" ) </p>
-                  <p> ( var="$border-radius-medium" ) </p>
+                  <h6> SCSS Variable <span class="sb-var-color"> ( $border-radius-medium ) </span> </h6>
+                  <h6> Class <span class="sb-class-color"> ( brm ) </span> </h6>
                 </div>
               </div>
             </li>
             <li>
               <div class="border-radius-outer">
-                <div class="border-radius-box border-radius-large"></div>
+                <div class="border-radius-box brl"></div>
                 <div class="border-radius-content">
-                  <h4 class="subtitle-2"> Large </h4>
+                  <h4> Large </h4>
                   <p> Popups </p>
-                  <p> ( class="border-radius-large" ) </p>
-                  <p> ( var="$border-radius-large" ) </p>
+                  <h6> SCSS Variable <span class="sb-var-color"> ( $border-radius-large ) </span> </h6>
+                  <h6> Class <span class="sb-class-color"> ( brl ) </span> </h6>
                 </div>
               </div>
             </li>
